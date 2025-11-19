@@ -1,0 +1,193 @@
+body, button, input, select {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1f2933;
+    }
+    body {
+    margin: 0;
+    background: #f5f7fa;
+    }
+    .app-header {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    background: linear-gradient(135deg, #4c6ef5, #8b5cf6);
+    color: #fff;
+    }
+    .app-header h1 {
+    margin: 0 0 0.5rem;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    }
+    main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 3rem;
+    display: grid;
+    gap: 2rem;
+    }
+    section {
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.75rem;
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
+    }
+    h2 {
+    margin: 0 0 1.25rem;
+    font-size: 1.35rem;
+    }
+    form,
+    .filter-controls,
+    .summary-stats {
+    display: grid;
+    gap: 1rem;
+    }
+    .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    }
+    label {
+    font-weight: 600;
+    color: #475467;
+    }
+    input,
+    select,
+    button {
+    border-radius: 10px;
+    border: 1px solid #cbd5f5;
+    padding: 0.8rem 0.9rem;
+    background: #f9fbff;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    input:focus,
+    select:focus {
+    outline: none;
+    border-color: #4c6ef5;
+    box-shadow: 0 0 0 3px rgba(76, 110, 245, 0.2);
+    background: #fff;
+    }
+    button {
+    border: none;
+    background: #4c6ef5;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(76, 110, 245, 0.25);
+    }
+    button:hover {
+    background: #4358d8;
+    }
+    .filter-controls {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    .summary-stats {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+    .stat {
+    background: #f4f6ff;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    }
+    .stat-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+    }
+    .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    }
+    .progress {
+    margin-top: 1.25rem;
+    display: grid;
+    gap: 0.5rem;
+    color: #475467;
+    }
+    .progress-bar {
+    height: 12px;
+    background: #e4e9fb;
+    border-radius: 999px;
+    overflow: hidden;
+    }
+    #progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(135deg, #10b981, #22d3ee);
+    border-radius: inherit;
+    transition: width 0.3s ease;
+    }
+    #problem-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .problem-card {
+    background: #fdfdff;
+    border: 1px solid #ebeefc;
+    border-radius: 14px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    box-shadow: 0 10px 20px rgba(15, 23, 42, 0.06);
+    }
+    .problem-card header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .problem-card h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    }
+    .tag {
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+    }
+    .easy {
+    background: #10b981;
+    }
+    .medium {
+    background: #f59e0b;
+    }
+    .hard {
+    background: #ef4444;
+    }
+    .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #64748b;
+    }
+    .card-actions {
+    display: flex;
+    gap: 0.5rem;
+    }
+    .card-actions button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    box-shadow: none;
+    }
+    @media (max-width: 640px) {
+    main {
+    padding: 1.25rem;
+    }
+    section {
+    padding: 1.25rem;
+    }
+    .app-header {
+    padding: 2.5rem 1rem 1.5rem;
+    }
+    #problem-list {
+    grid-template-columns: 1fr;
+    }
+    .card-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+    }
+    }
