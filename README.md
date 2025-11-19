@@ -1,20 +1,27 @@
+# DSA Tracker Web App
+
+A simple and clean web application to track your DSA practice.  
+Add problems, mark them as solved, filter by category and difficulty, and track your progress visually — all built using Vibe Coding (AI-assisted development) and refined manually.
+
+---
+
 ## 🚀 Features
 
 ### ✅ Add New Problems
 - Add a problem with:
-  - Title  
-  - Category (Array, String, DP, Graph, Hashmap, Others)  
+  - Title
+  - Category (Array, String, DP, Graph, Hashmap, Others)
   - Difficulty (Easy / Medium / Hard)
 
 ### ✅ Manage Problems
-- Mark problems as **Solved**
+- Mark problems as Solved
 - Delete problems
 - Problems displayed as cards with color-coded difficulty
 - Responsive card grid layout
 
 ### ✅ Filters
-- Filter by **Category**
-- Filter by **Difficulty**
+- Filter by Category
+- Filter by Difficulty
 
 ### ✅ Progress Tracking
 - Shows Total Problems
@@ -22,7 +29,7 @@
 - Dynamic progress bar showing completion percentage
 
 ### ✅ Data Persistence
-- All data stored using **localStorage**
+- All data stored using localStorage
 - Progress is saved even after refreshing the page
 
 ---
@@ -30,7 +37,8 @@
 ## ⚡ Vibe Coding + Manual Refinements
 - Built using AI-assisted development
 - Improved through iterative refinements
-- Manual debugging, optimization, and UI polish applied
+- Manual debugging and UI polish
+- Demonstrates ability to work with and refine AI-generated code
 
 ---
 
@@ -38,19 +46,30 @@
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla)  
-- localStorage for data storage  
-- Cursor + ChatGPT-style Vibe Coding  
+- localStorage  
+- Cursor + ChatGPT (Vibe Coding)
 
 ---
 
 ## 🎯 Why I Built This
 This project showcases my ability to:
-
-- Leverage AI effectively for development (Vibe Coding)
-- Break down features and implement them step-by-step
-- Build functional and interactive web applications
-- Understand, edit, and optimize AI-generated code
+- Use Vibe Coding effectively
+- Break down requirements and build features step-by-step
+- Develop functional, real-world web applications
+- Edit and optimize AI-generated code
 - Apply clean UI/UX principles
 
-It also serves as a personal tool to improve my DSA practice for placements.
+I also use this tool personally to improve my DSA practice for placements.
+
+---
+
+## 📦 How to Run the Project
+1. Download or clone the repository  
+2. Open `index.html` in a browser  
+3. Start adding problems and tracking progress  
+
+---
+
+## 📸 Screenshots (Optional)
+You can add screenshots here:
 
