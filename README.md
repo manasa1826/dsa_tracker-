@@ -1,74 +1,56 @@
-🚀 Features
-✅ Add New Problems
+## 🚀 Features
 
-Title
+### ✅ Add New Problems
+- Add a problem with:
+  - Title  
+  - Category (Array, String, DP, Graph, Hashmap, Others)  
+  - Difficulty (Easy / Medium / Hard)
 
-Category (Array, String, DP, Graph, Hashmap, Others)
+### ✅ Manage Problems
+- Mark problems as **Solved**
+- Delete problems
+- Problems displayed as cards with color-coded difficulty
+- Responsive card grid layout
 
-Difficulty (Easy / Medium / Hard)
+### ✅ Filters
+- Filter by **Category**
+- Filter by **Difficulty**
 
-✅ Manage Problems
+### ✅ Progress Tracking
+- Shows Total Problems
+- Solved Count & Unsolved Count
+- Dynamic progress bar showing completion percentage
 
-Mark a problem as Solved
+### ✅ Data Persistence
+- All data stored using **localStorage**
+- Progress is saved even after refreshing the page
 
-Delete a problem
+---
 
-Problems shown as cards with color-coded difficulty
+## ⚡ Vibe Coding + Manual Refinements
+- Built using AI-assisted development
+- Improved through iterative refinements
+- Manual debugging, optimization, and UI polish applied
 
-Responsive grid layout
+---
 
-✅ Filters
+## 🛠️ Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- localStorage for data storage  
+- Cursor + ChatGPT-style Vibe Coding  
 
-Filter by Category
+---
 
-Filter by Difficulty
+## 🎯 Why I Built This
+This project showcases my ability to:
 
-✅ Progress Tracking
+- Leverage AI effectively for development (Vibe Coding)
+- Break down features and implement them step-by-step
+- Build functional and interactive web applications
+- Understand, edit, and optimize AI-generated code
+- Apply clean UI/UX principles
 
-Total Problems
+It also serves as a personal tool to improve my DSA practice for placements.
 
-Solved Count
-
-Unsolved Count
-
-Dynamic Progress Bar showing your completion percentage
-
-✅ Data Persistence
-
-All data stored using localStorage
-
-Your progress remains even after refreshing the page
-
-⚡ Vibe Coding + Manual Refinements
-
-Generated using AI prompts
-
-Iteratively refined with improvements, bug fixes, and UI polish
-
-🛠️ Tech Stack
-
-HTML5
-
-CSS3
-
-JavaScript (Vanilla)
-
-localStorage for persistence
-
-Cursor + ChatGPT-like AI for vibe coding
-
-Why I Built This
-
-This project demonstrates my ability to:
-
-Use AI-assisted development (Vibe Coding) effectively
-
-Break down requirements and iterate feature-by-feature
-
-Build functional, real-world web applications
-
-Understand and modify AI-generated code
-
-Apply clean UI design principles
-
-This is also a tool I personally use to improve my DSA practice for placements.
